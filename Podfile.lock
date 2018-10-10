@@ -1,0 +1,16 @@
+PODS:
+  - MYTableViewIndex (0.6.1)
+
+DEPENDENCIES:
+  - MYTableViewIndex
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MYTableViewIndex
+
+SPEC CHECKSUMS:
+  MYTableViewIndex: adc397809c76413bc7d117f95c7fce18a1282014
+
+PODFILE CHECKSUM: ee5c5146f9c2068f3f17980072f3798d32b4fdbd
+
+COCOAPODS: 1.5.3

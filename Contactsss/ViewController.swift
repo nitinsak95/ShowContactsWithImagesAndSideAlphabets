@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.navigationItem.title = "App Name"
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +21,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btContacts(_ sender: Any) {
+        let vc: ContactListVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ContactList") as! ContactListVC
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 
 }
 
